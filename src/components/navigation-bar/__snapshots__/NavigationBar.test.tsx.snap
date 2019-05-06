@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavigationBar /> renders correctly a navbar on top 1`] = `
+<Menu
+  mode="horizontal"
+  onClick={[Function]}
+  selectedKeys={
+    Array [
+      "home",
+    ]
+  }
+>
+  <MenuItem
+    key="home"
+  >
+    <Link
+      to="/"
+    >
+      <Icon
+        type="mail"
+      />
+      Home
+    </Link>
+  </MenuItem>
+  <MenuItem
+    key="page1"
+  >
+    <Link
+      to="/page1"
+    >
+      <Icon
+        type="appstore"
+      />
+      Page One
+    </Link>
+  </MenuItem>
+  <MenuItem
+    key="page2"
+  >
+    <Link
+      to="/page2"
+    >
+      <Icon
+        type="appstore"
+      />
+      Page Two
+    </Link>
+  </MenuItem>
+  <MenuItem
+    key="page3"
+  >
+    <Link
+      to="/page3"
+    >
+      <Icon
+        type="appstore"
+      />
+      Page Three
+    </Link>
+  </MenuItem>
+</Menu>
+`;

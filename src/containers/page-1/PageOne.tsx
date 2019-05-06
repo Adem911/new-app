@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
 const PageOne = () => {
-    return (
-        <div>
-            PageOne
-        </div>
-    );
+  return <div>PageOne</div>;
 };
 
 export default PageOne;

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> renders one h1 element 1`] = `
+<div
+  className="App"
+>
+  <BrowserRouter>
+    <NavigationBar />
+    <div>
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/page1"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/page2"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/page3"
+      />
+    </div>
+  </BrowserRouter>
+</div>
+`;

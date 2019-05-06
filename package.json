@@ -12,6 +12,7 @@
     "@types/react-router-dom": "^4.3.2",
     "antd": "^3.16.6",
     "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
     "cypress": "^3.2.0",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.12.1",
@@ -22,6 +23,7 @@
     "react-dom": "^16.8.6",
     "react-router-dom": "^5.0.0",
     "react-scripts": "3.0.0",
+    "reactstrap": "^8.0.0",
     "typescript": "3.4.5"
   },
   "scripts": {
@@ -43,6 +45,11 @@
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
     ]
   }
 }

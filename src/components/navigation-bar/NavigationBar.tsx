@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Menu, Icon } from "antd";
-import "antd/dist/antd.css";
 
 class NavigationBar extends React.Component {
   state = {
@@ -45,7 +44,7 @@ class NavigationBar extends React.Component {
         <Menu.Item key="page3">
           <Link to="/page3">
             <Icon type="appstore" />
-            Page Two
+            Page Three
           </Link>
         </Menu.Item>
       </Menu>
